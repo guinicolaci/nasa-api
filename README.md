@@ -40,7 +40,7 @@ pip install -r requirements.txt
 
 ```
 - Edite o `.env` com sua chave da NASA:
-  ```env
+
   NASA_API_KEY=sua_chave_aqui
 ```
 
