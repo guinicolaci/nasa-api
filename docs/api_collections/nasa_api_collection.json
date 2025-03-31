@@ -1,0 +1,111 @@
+{
+  "info": {
+    "name": "nasa_api",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "apod",
+      "event": [],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http://127.0.0.1:5000/apod?date=2023-09-01&count=2",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1:5000"
+          ],
+          "path": [
+            "apod"
+          ],
+          "query": [
+            {
+              "key": "date",
+              "value": "2023-09-01"
+            },
+            {
+              "key": "count",
+              "value": "2"
+            }
+          ],
+          "variable": []
+        }
+      }
+    },
+    {
+      "name": "mars",
+      "event": [],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http://localhost:5000/mars-photos?rover=perseverance",
+          "protocol": "http",
+          "host": [
+            "localhost:5000"
+          ],
+          "path": [
+            "mars-photos"
+          ],
+          "query": [
+            {
+              "key": "rover",
+              "value": "perseverance"
+            },
+            {
+              "key": "sol",
+              "value": "1500"
+            }
+          ],
+          "variable": []
+        }
+      }
+    },
+    {
+      "name": "bruno",
+      "event": []
+    },
+    {
+      "name": "neo",
+      "event": [],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http://localhost:5000/neo?start_date=2024-04-30",
+          "protocol": "http",
+          "host": [
+            "localhost:5000"
+          ],
+          "path": [
+            "neo"
+          ],
+          "query": [
+            {
+              "key": "start_date",
+              "value": "2024-04-30"
+            }
+          ],
+          "variable": []
+        }
+      }
+    }
+  ],
+  "variable": []
+}
